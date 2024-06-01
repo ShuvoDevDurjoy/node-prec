@@ -1,0 +1,15 @@
+{
+  "name": "node-js-vs-code",
+  "version": "1.0.0",
+  "author": "Shuvo Dev",
+  "description": "This is practice test.",
+  "main": "prec.js",
+  "scripts": {
+    "test": "No Erro is specified && Exit 1",
+    "start": "node prec.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

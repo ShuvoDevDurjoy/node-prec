@@ -1,0 +1,107 @@
+*{
+    margin : 0 ; 
+    padding : 0 ; 
+    box-sizing : border-box ; 
+}
+
+body{
+    width : 100% ;  
+}
+
+a{
+    color : white ; 
+    text-decoration: none ;
+}
+
+.container{
+    width : 100% ; 
+    display : flex ; 
+    justify-content: space-between;
+}
+
+.left-container{
+    width : 5% ; 
+    height : 100vh ; 
+    background-color : black ; 
+    writing-mode: vertical-rl;
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column ;
+    position : sticky ; 
+    left : 0 ; 
+    top : 0 ; 
+}
+
+.nav-list{
+    width : 100% ; 
+    height : 100% ; 
+    display : flex  ;
+    align-items: center ;
+    flex-direction: row-reverse;
+    margin-top : auto ; 
+    margin-bottom : auto ; 
+    font-size : 1.5rem ; 
+    padding :2rem 0 ; 
+    list-style-type: none;
+    rotate : 180deg ; 
+}
+
+.nav-list li a{
+    padding : 1.5rem ; 
+}
+
+.nav-list li:nth-child(1) a:hover{
+    background-color : red ; 
+    color : black ; 
+}
+.home-active{
+    background-color: red;
+    color : black ; 
+}
+.nav-list li:nth-child(2) a:hover{
+    background-color : yellow ; 
+    color : red ; 
+}
+.about-active{
+    background-color : yellow ; 
+    color : red ;
+}
+.nav-list li:nth-child(3) a:hover{
+    background-color : blueviolet ; 
+    color : red ; 
+}
+.contact-active{
+    background-color : blueviolet;
+    color : red ; 
+}
+
+.right-container{
+    width : 95% ; 
+    min-height: 100vh ; ;
+}
+
+#home{
+    width : 100% ; 
+    height : 100vh ; 
+    background-color: red;
+}
+
+#about{
+    width : 100% ; 
+    height : 100vh ; 
+    background-color: yellow ;
+}
+
+
+#contact{
+    width : 100% ; 
+    height : 100vh ; 
+    background-color: blueviolet;
+}
+
+.center{
+    display : flex ; 
+    align-items: center;
+    justify-content: center ;
+    font-size : 5rem ; 
+}
